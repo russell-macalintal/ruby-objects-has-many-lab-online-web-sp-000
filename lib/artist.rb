@@ -3,10 +3,10 @@ class Artist
 
   def initialize(name)
     @name = name
-  end 
+  end
 
   def songs
-    
+
   end
 
   def add_song(song)
@@ -16,5 +16,5 @@ class Artist
   def add_song_by_name(name)
     song = Song.new
   end
-  
+
 end 
